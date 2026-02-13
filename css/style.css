@@ -288,6 +288,80 @@ ul, ol {
 }
 
 /* ============================================
+   APPRECIATION SECTION - NEW
+   ============================================ */
+.appreciation-section {
+    padding: var(--space-5xl) 0;
+    background: linear-gradient(180deg, var(--cream) 0%, var(--pink-50) 100%);
+}
+
+.appreciation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+    margin-top: var(--space-2xl);
+}
+
+.appreciation-card {
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: var(--space-2xl);
+    box-shadow: var(--shadow-lg);
+    border: 2px solid var(--pink-100);
+    transition: var(--transition-base);
+    text-align: center;
+}
+
+.appreciation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--pink-300);
+}
+
+.appreciation-icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-lg);
+    animation: iconBounce 2s ease-in-out infinite;
+}
+
+@keyframes iconBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.appreciation-title {
+    font-family: var(--font-pixel);
+    font-size: 0.7rem;
+    color: var(--pink-600);
+    margin-bottom: var(--space-md);
+    letter-spacing: 1px;
+}
+
+.appreciation-text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .appreciation-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .appreciation-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+    
+    .appreciation-icon {
+        font-size: 2.5rem;
+    }
+}
+
+/* ============================================
    SCROLL PROGRESS
    ============================================ */
 .scroll-progress {

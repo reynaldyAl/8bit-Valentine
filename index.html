@@ -23,14 +23,15 @@
     <nav class="navbar" id="navbar">
         <div class="nav-brand">
             <span class="nav-heart">♡</span>
-            <span class="nav-text">Valentine</span>
+            <span class="nav-text">Friendship</span>
         </div>
         <ul class="nav-links">
             <li><a href="#home" class="nav-link active">Home</a></li>
             <li><a href="#letter" class="nav-link">Letter</a></li>
             <li><a href="#memories" class="nav-link">Memories</a></li>
+            <li><a href="#appreciation" class="nav-link">Thanks</a></li>
             <li><a href="#game" class="nav-link">Game</a></li>
-            <li><a href="#question" class="nav-link">Question</a></li>
+            <li><a href="#question" class="nav-link">Message</a></li>
         </ul>
         <button class="nav-music" id="musicToggle">
             <span class="music-icon">♪</span>
@@ -49,38 +50,38 @@
             <div class="hero-container">
                 <div class="hero-left">
                     <div class="hero-badge">
-                        <span class="badge-icon">♡</span>
+                        <span class="badge-icon">✨</span>
                         <span class="badge-text">February 14, 2026</span>
                     </div>
                     <h1 class="hero-title">
                         <span class="title-line">Happy</span>
                         <span class="title-line highlight">Valentine</span>
-                        <span class="title-line">Day</span>
+                        <span class="title-line">Day!</span>
                     </h1>
-                    <p class="hero-subtitle">A little something special, made with love, just for you.</p>
+                    <p class="hero-subtitle">A heartfelt message, celebrating our friendship, just for you.</p>
                     <div class="hero-buttons">
                         <a href="#letter" class="btn btn-primary">
-                            <span>Read My Letter</span>
+                            <span>Read My Message</span>
                             <span class="btn-icon">→</span>
                         </a>
                         <a href="#question" class="btn btn-secondary">
-                            <span>Skip to Question</span>
+                            <span>Skip to Message</span>
                         </a>
                     </div>
                     <div class="hero-stats">
                         <div class="stat-item">
-                            <span class="stat-number" id="statDays">0</span>
-                            <span class="stat-label">Days Together</span>
+                            <span class="stat-number" id="statDays">∞</span>
+                            <span class="stat-label">Friendship</span>
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
                             <span class="stat-number" id="statHearts">∞</span>
-                            <span class="stat-label">Love For You</span>
+                            <span class="stat-label">Gratitude</span>
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
                             <span class="stat-number">100%</span>
-                            <span class="stat-label">Commitment</span>
+                            <span class="stat-label">Support</span>
                         </div>
                     </div>
                 </div>
@@ -121,11 +122,11 @@
                             </div>
                         </div>
                         <div class="floating-elements">
-                            <div class="float-item float-1">♡</div>
-                            <div class="float-item float-2">✦</div>
-                            <div class="float-item float-3">♡</div>
-                            <div class="float-item float-4">✦</div>
-                            <div class="float-item float-5">♡</div>
+                            <div class="float-item float-1">✨</div>
+                            <div class="float-item float-2">⭐</div>
+                            <div class="float-item float-3">💫</div>
+                            <div class="float-item float-4">✨</div>
+                            <div class="float-item float-5">⭐</div>
                         </div>
                     </div>
                 </div>
@@ -139,92 +140,82 @@
             </div>
         </section>
 
-<!-- Letter Section -->
-<section class="letter-section" id="letter">
-    <!-- Overlay untuk modal -->
-    <div class="letter-overlay" id="letterOverlay"></div>
-    
-    <div class="section-container">
-        <div class="section-header">
-            <span class="section-badge">Love Letter</span>
-            <h2 class="section-title">Words From My Heart</h2>
-            <p class="section-subtitle">Every word written with love, every sentence filled with meaning</p>
-        </div>
-        
-        <div class="letter-wrapper">
-            <div class="letter-envelope" id="envelope">
-                <!-- Shadow -->
-                <div class="letter-envelope-shadow"></div>
-                
-                <!-- Sparkles -->
-                <span class="envelope-sparkle sparkle-1">✦</span>
-                <span class="envelope-sparkle sparkle-2">✦</span>
-                <span class="envelope-sparkle sparkle-3">✦</span>
-                
-                <!-- Envelope Back -->
-                <div class="envelope-back"></div>
-                <div class="envelope-texture"></div>
-                <div class="envelope-shine"></div>
-                
-                <!-- Envelope Front -->
-                <div class="envelope-front">
-                    <div class="envelope-lines"></div>
-                    <div class="envelope-seal">♡</div>
+        <!-- Letter Section -->
+        <section class="letter-section" id="letter">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Heartfelt Message</span>
+                    <h2 class="section-title">Words of Appreciation</h2>
+                    <p class="section-subtitle">A sincere message to celebrate our friendship</p>
                 </div>
                 
-                <!-- Envelope Flap -->
-                <div class="envelope-flap"></div>
-                
-                <!-- Letter Paper -->
-                <div class="envelope-letter" id="letterPaper">
-                    <!-- Close Button -->
-                    <button class="letter-close" id="letterClose">✕</button>
-                    
-                    <div class="letter-paper">
-                        <!-- Corner Decorations -->
-                        <span class="paper-corner top-left">❦</span>
-                        <span class="paper-corner top-right">❦</span>
-                        <span class="paper-corner bottom-left">❦</span>
-                        <span class="paper-corner bottom-right">❦</span>
+                <div class="letter-wrapper">
+                    <div class="letter-envelope" id="envelope">
+                        <div class="letter-envelope-shadow"></div>
                         
-                        <div class="paper-header">
-                            <div class="paper-decoration left">❦</div>
-                            <div class="paper-date">February 14, 2026</div>
-                            <div class="paper-decoration right">❦</div>
+                        <span class="envelope-sparkle sparkle-1">✦</span>
+                        <span class="envelope-sparkle sparkle-2">✦</span>
+                        <span class="envelope-sparkle sparkle-3">✦</span>
+                        
+                        <div class="envelope-back"></div>
+                        <div class="envelope-texture"></div>
+                        <div class="envelope-shine"></div>
+                        
+                        <div class="envelope-front">
+                            <div class="envelope-lines"></div>
+                            <div class="envelope-seal">✨</div>
                         </div>
-                        <div class="paper-body">
-                            <p class="letter-greeting">My Dearest Love,</p>
-                            <div class="letter-content" id="letterContent">
-                                <p class="letter-paragraph"></p>
-                            </div>
-                            <div class="letter-closing">
-                                <p class="closing-text">With all my heart,</p>
-                                <p class="closing-signature">Forever Yours ♡</p>
-                            </div>
-                        </div>
-                        <div class="paper-footer">
-                            <div class="footer-hearts">
-                                <span>♡</span><span>♡</span><span>♡</span>
+                        
+                        <div class="envelope-flap"></div>
+                        
+                        <div class="envelope-letter" id="letterPaper">
+                            <button class="letter-close" id="letterClose">✕</button>
+                            
+                            <div class="letter-paper">
+                                <span class="paper-corner top-left">✿</span>
+                                <span class="paper-corner top-right">✿</span>
+                                <span class="paper-corner bottom-left">✿</span>
+                                <span class="paper-corner bottom-right">✿</span>
+                                
+                                <div class="paper-header">
+                                    <div class="paper-decoration left">✿</div>
+                                    <div class="paper-date">February 14, 2026</div>
+                                    <div class="paper-decoration right">✿</div>
+                                </div>
+                                <div class="paper-body">
+                                    <p class="letter-greeting">Dear you,</p>
+                                    <div class="letter-content" id="letterContent">
+                                        <p class="letter-paragraph"></p>
+                                    </div>
+                                    <div class="letter-closing">
+                                        <p class="closing-text">With deep gratitude,</p>
+                                        <p class="closing-signature">Your Friend Always ✨</p>
+                                    </div>
+                                </div>
+                                <div class="paper-footer">
+                                    <div class="footer-hearts">
+                                        <span>✨</span><span>⭐</span><span>✨</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="letter-instruction" id="letterInstruction">
+                        <span class="instruction-icon">↑↑</span>
+                        <span class="instruction-text">Click the envelope to open</span>
+                    </div>
                 </div>
             </div>
-            
-            <div class="letter-instruction" id="letterInstruction">
-                <span class="instruction-icon">☝</span>
-                <span class="instruction-text">Click the envelope to open</span>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
+
         <!-- Memories Section -->
         <section class="memories-section" id="memories">
             <div class="section-container">
                 <div class="section-header">
-                    <span class="section-badge">Our Story</span>
-                    <h2 class="section-title">Little Notes & Memories</h2>
-                    <p class="section-subtitle">Small moments that mean everything to me</p>
+                    <span class="section-badge">Our Journey</span>
+                    <h2 class="section-title">Cherished Moments</h2>
+                    <p class="section-subtitle">Memories that make our friendship special</p>
                 </div>
                 
                 <div class="memories-grid">
@@ -234,10 +225,10 @@
                                 <div class="memory-icon">
                                     <div class="pixel-icon icon-heart"></div>
                                 </div>
-                                <span class="memory-label">First</span>
+                                <span class="memory-label">Trust</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">The first time I saw you, I knew my life was about to change forever.</p>
+                                <p class="memory-text">Thank you for being someone I can always count on, no matter what.</p>
                             </div>
                         </div>
                     </div>
@@ -248,10 +239,10 @@
                                 <div class="memory-icon">
                                     <div class="pixel-icon icon-star"></div>
                                 </div>
-                                <span class="memory-label">Smile</span>
+                                <span class="memory-label">Laughter</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">Your smile is my favorite thing in this world. It lights up my darkest days.</p>
+                                <p class="memory-text">Your sense of humor brightens even my darkest days. Thank you for the laughs.</p>
                             </div>
                         </div>
                     </div>
@@ -262,10 +253,10 @@
                                 <div class="memory-icon">
                                     <div class="pixel-icon icon-moon"></div>
                                 </div>
-                                <span class="memory-label">Dreams</span>
+                                <span class="memory-label">Support</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">Every night I dream of our future together. Every dream has you in it.</p>
+                                <p class="memory-text">Through ups and downs, you've been my constant support. I'm grateful for you.</p>
                             </div>
                         </div>
                     </div>
@@ -276,10 +267,10 @@
                                 <div class="memory-icon">
                                     <div class="pixel-icon icon-home"></div>
                                 </div>
-                                <span class="memory-label">Home</span>
+                                <span class="memory-label">Comfort</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">Home isn't a place for me anymore. Home is wherever you are.</p>
+                                <p class="memory-text">With you, I feel like I can be myself. That's a rare and precious gift.</p>
                             </div>
                         </div>
                     </div>
@@ -290,10 +281,10 @@
                                 <div class="memory-icon">
                                     <div class="pixel-icon icon-music"></div>
                                 </div>
-                                <span class="memory-label">Song</span>
+                                <span class="memory-label">Joy</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">Every love song makes sense now. They were all written about you.</p>
+                                <p class="memory-text">Every moment with you is filled with joy. Here's to many more adventures!</p>
                             </div>
                         </div>
                     </div>
@@ -307,7 +298,7 @@
                                 <span class="memory-label">Forever</span>
                             </div>
                             <div class="memory-back">
-                                <p class="memory-text">I promise to love you not just today, but every single day of forever.</p>
+                                <p class="memory-text">I hope our friendship lasts forever. You mean the world to me.</p>
                             </div>
                         </div>
                     </div>
@@ -319,31 +310,80 @@
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <span class="timeline-date">Day 1</span>
-                                <p class="timeline-text">We first met</p>
+                                <span class="timeline-date">The Start</span>
+                                <p class="timeline-text">We became friends</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <span class="timeline-date">Day 30</span>
-                                <p class="timeline-text">First "I love you"</p>
+                                <span class="timeline-date">Growing</span>
+                                <p class="timeline-text">Building trust</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot"></div>
                             <div class="timeline-content">
-                                <span class="timeline-date">Day 100</span>
-                                <p class="timeline-text">Our first trip</p>
+                                <span class="timeline-date">Adventures</span>
+                                <p class="timeline-text">Making memories</p>
                             </div>
                         </div>
                         <div class="timeline-item">
                             <div class="timeline-dot active"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">Today</span>
-                                <p class="timeline-text">Still falling for you</p>
+                                <p class="timeline-text">Grateful for you</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW: Appreciation Section -->
+        <section class="appreciation-section" id="appreciation">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Gratitude</span>
+                    <h2 class="section-title">Things I Appreciate About You</h2>
+                    <p class="section-subtitle">The qualities that make you an amazing person</p>
+                </div>
+                
+                <div class="appreciation-grid">
+                    <div class="appreciation-card" data-aos="fade-up">
+                        <div class="appreciation-icon">^0^</div>
+                        <h3 class="appreciation-title">Your Kindness</h3>
+                        <p class="appreciation-text">Your compassion and empathy inspire me to be a better person every day.</p>
+                    </div>
+                    
+                    <div class="appreciation-card" data-aos="fade-up" data-delay="100">
+                        <div class="appreciation-icon">^^</div>
+                        <h3 class="appreciation-title">Your Strength</h3>
+                        <p class="appreciation-text">The way you handle challenges with grace motivates me to face my own struggles.</p>
+                    </div>
+                    
+                    <div class="appreciation-card" data-aos="fade-up" data-delay="200">
+                        <div class="appreciation-icon">:D</div>
+                        <h3 class="appreciation-title">Your Positivity</h3>
+                        <p class="appreciation-text">Your optimistic outlook on life is contagious and brightens everyone's day.</p>
+                    </div>
+                    
+                    <div class="appreciation-card" data-aos="fade-up" data-delay="300">
+                        <div class="appreciation-icon">u‿ฺu✿ฺ</div>
+                        <h3 class="appreciation-title">Your Honesty</h3>
+                        <p class="appreciation-text">I value your genuine feedback and the trust we've built over time.</p>
+                    </div>
+                    
+                    <div class="appreciation-card" data-aos="fade-up" data-delay="400">
+                        <div class="appreciation-icon">(^^ゞ</div>
+                        <h3 class="appreciation-title">Your Uniqueness</h3>
+                        <p class="appreciation-text">You bring your own special flavor to everything you do. Never change!</p>
+                    </div>
+                    
+                    <div class="appreciation-card" data-aos="fade-up" data-delay="500">
+                        <div class="appreciation-icon">>"<</div>
+                        <h3 class="appreciation-title">Your Presence</h3>
+                        <p class="appreciation-text">Simply having you in my life makes everything better. Thank you for being you.</p>
                     </div>
                 </div>
             </div>
@@ -354,17 +394,17 @@
             <div class="section-container">
                 <div class="section-header">
                     <span class="section-badge">Mini Game</span>
-                    <h2 class="section-title">Cupid's Arrow</h2>
-                    <p class="section-subtitle">Catch the hearts to collect love points</p>
+                    <h2 class="section-title">Friendship Stars</h2>
+                    <p class="section-subtitle">Catch the stars to collect friendship points</p>
                 </div>
                 
                 <div class="game-wrapper">
                     <div class="game-stats">
                         <div class="game-stat">
-                            <span class="stat-icon">♡</span>
+                            <span class="stat-icon">⭐</span>
                             <div class="stat-info">
                                 <span class="stat-value" id="gameScore">0</span>
-                                <span class="stat-name">Love Points</span>
+                                <span class="stat-name">Friendship Points</span>
                             </div>
                         </div>
                         <div class="game-stat">
@@ -375,7 +415,7 @@
                             </div>
                         </div>
                         <div class="game-stat">
-                            <span class="stat-icon">★</span>
+                            <span class="stat-icon">🏆</span>
                             <div class="stat-info">
                                 <span class="stat-value" id="gameHigh">0</span>
                                 <span class="stat-name">High Score</span>
@@ -386,8 +426,8 @@
                     <div class="game-arena" id="gameArena">
                         <div class="game-overlay" id="gameOverlay">
                             <div class="overlay-content">
-                                <h3 class="overlay-title">Cupid's Arrow</h3>
-                                <p class="overlay-text">Click the hearts before they disappear!</p>
+                                <h3 class="overlay-title">Friendship Stars</h3>
+                                <p class="overlay-text">Click the stars before they disappear!</p>
                                 <button class="btn btn-primary btn-game" id="startGame">
                                     <span>Start Game</span>
                                 </button>
@@ -396,7 +436,7 @@
                         <div class="game-end hidden" id="gameEnd">
                             <div class="end-content">
                                 <h3 class="end-title">Time's Up!</h3>
-                                <p class="end-score">You collected <span id="finalScore">0</span> love points!</p>
+                                <p class="end-score">You collected <span id="finalScore">0</span> friendship points!</p>
                                 <p class="end-message" id="endMessage"></p>
                                 <button class="btn btn-primary btn-game" id="restartGame">
                                     <span>Play Again</span>
@@ -416,73 +456,9 @@
                             <span class="powerup-name">Extra Time</span>
                         </div>
                         <div class="powerup" data-type="multi">
-                            <span class="powerup-icon">♡♡</span>
-                            <span class="powerup-name">Multi Hearts</span>
+                            <span class="powerup-icon">⭐⭐</span>
+                            <span class="powerup-name">Multi Stars</span>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Time Section -->
-        <section class="time-section" id="time">
-            <div class="section-container">
-                <div class="section-header">
-                    <span class="section-badge">Our Journey</span>
-                    <h2 class="section-title">Time Together</h2>
-                    <p class="section-subtitle">Every second with you is a gift</p>
-                </div>
-                
-                <div class="time-display">
-                    <div class="time-card">
-                        <div class="time-card-inner">
-                            <div class="time-flip">
-                                <span class="time-value" id="timeDays">000</span>
-                            </div>
-                            <span class="time-label">Days</span>
-                        </div>
-                    </div>
-                    <div class="time-separator">:</div>
-                    <div class="time-card">
-                        <div class="time-card-inner">
-                            <div class="time-flip">
-                                <span class="time-value" id="timeHours">00</span>
-                            </div>
-                            <span class="time-label">Hours</span>
-                        </div>
-                    </div>
-                    <div class="time-separator">:</div>
-                    <div class="time-card">
-                        <div class="time-card-inner">
-                            <div class="time-flip">
-                                <span class="time-value" id="timeMinutes">00</span>
-                            </div>
-                            <span class="time-label">Minutes</span>
-                        </div>
-                    </div>
-                    <div class="time-separator">:</div>
-                    <div class="time-card">
-                        <div class="time-card-inner">
-                            <div class="time-flip">
-                                <span class="time-value" id="timeSeconds">00</span>
-                            </div>
-                            <span class="time-label">Seconds</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="time-message">
-                    <p>And counting every beautiful moment...</p>
-                </div>
-                
-                <div class="love-meter">
-                    <div class="meter-label">
-                        <span>Love Meter</span>
-                        <span class="meter-percent">100%</span>
-                    </div>
-                    <div class="meter-bar">
-                        <div class="meter-fill" id="loveMeter"></div>
-                        <div class="meter-glow"></div>
                     </div>
                 </div>
             </div>
@@ -502,12 +478,12 @@
                             <div class="icon-pulse"></div>
                             <span class="icon-heart">♡</span>
                         </div>
-                        <h2 class="question-title">Will You Be My Valentine?</h2>
+                        <h2 class="question-title">Are we happy together?</h2>
                         <p class="question-subtitle">I've been wanting to ask you this...</p>
                         
                         <div class="question-buttons" id="questionButtons">
                             <button class="btn btn-love" id="btnYes">
-                                <span class="btn-text">Yes, I Will!</span>
+                                <span class="btn-text">Absolutely</span>
                                 <span class="btn-hearts">♡♡♡</span>
                             </button>
                             <button class="btn btn-shy" id="btnNo">
@@ -523,16 +499,16 @@
                         <div class="response-hearts">
                             <span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span>
                         </div>
-                        <p class="response-promise">I promise to love you forever and always.</p>
+                        <p class="response-promise">You wouldn't regret this</p>
                     </div>
                 </div>
             </div>
         </section>
 
-            <!-- Background Music -->
-    <audio id="bgMusic" loop preload="auto">
-        <source src="assets/LANY_Soft.mp3" type="audio/mpeg">
-    </audio>
+        <!-- Background Music -->
+        <audio id="bgMusic" loop preload="auto">
+            <source src="assets/LANY_Soft.mp3" type="audio/mpeg">
+        </audio>
 
     </main>
 
@@ -541,14 +517,14 @@
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <span class="footer-heart">♡</span>
-                    <span class="footer-text">Made with love</span>
+                    <span class="footer-heart"></span>
+                    <span class="footer-text">Made with appreciation</span>
                 </div>
                 <div class="footer-divider"></div>
-                <p class="footer-copy">Valentine's Day 2026</p>
+                <p class="footer-copy">Friendship Day 2026</p>
             </div>
             <div class="footer-decoration">
-                <span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span>
+                <span>✨</span><span>⭐</span><span>💫</span><span>⭐</span><span>✨</span>
             </div>
         </div>
     </footer>

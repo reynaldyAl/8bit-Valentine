@@ -452,7 +452,7 @@ function initLetterSection() {
 
 Every day with you feels like a new adventure. Your laugh is my favorite sound, your smile is my favorite sight, and your happiness is my greatest priority. You've taught me what it truly means to love and be loved.
 
-Thank you for being my best friend, my confidant, and my greatest love. Thank you for all the little things you do that make my life infinitely better. Thank you for choosing me, every single day.
+Thank you for being here , my confidant, and my greatest love. Thank you for all the little things you do that make my life infinitely better. Thank you for choosing me, every single day.
 
 This Valentine's Day, I want you to know that my love for you grows stronger with each passing moment. You are my today and all of my tomorrows.`;
 
